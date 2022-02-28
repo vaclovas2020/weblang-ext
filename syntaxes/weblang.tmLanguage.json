@@ -9,6 +9,10 @@
       "match": "\\b(server|controller|object|model|view|service|firewall|repository|router|cms)\\b"
     },
     {
+      "name": "support.function",
+      "match": "\\b(func)\\b"
+    },
+    {
       "name": "string.quoted.double.weblang",
       "begin": "\"",
       "end": "\"",
@@ -32,6 +36,14 @@
       "name":"variable.parameter",
       "begin":"@\\w+",
       "end":")"
+    },
+    {
+      "name":"constant.numeric",
+      "match":"[0-9]+"
+    },
+    {
+      "name": "variable.other",
+      "match": "[$]\\w+"
     }
   ]
 }
