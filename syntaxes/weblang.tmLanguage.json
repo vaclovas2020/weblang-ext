@@ -1,0 +1,32 @@
+{
+  "scopeName": "source.weblang",
+  "fileTypes": "weblang",
+  "foldingStartMarker": "\\{\\s*$",
+  "foldingStopMarker": "^\\s*\\}",
+  "patterns": [
+    {
+      "name": "support.class.weblang",
+      "match": "\\b(server|controller|object|model|view|service|firewall|repository)\\b"
+    },
+    {
+      "name": "string.quoted.double.weblang",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.weblang",
+          "match": "'\\\\."
+        }
+      ]
+    },
+    {
+      "name": "comment.line.double-slash.weblang",
+      "match":"\\/\\/.*"
+    },
+    {
+      "name": "comment.block",
+      "begin":"\\/\\*",
+      "end": "\\*+\\/"
+    }
+  ]
+}
