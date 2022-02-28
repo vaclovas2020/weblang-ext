@@ -6,7 +6,7 @@
   "patterns": [
     {
       "name": "support.class.weblang",
-      "match": "\\b(server|controller|object|model|view|service|firewall|repository)\\b"
+      "match": "\\b(server|controller|object|model|view|service|firewall|repository|router|cms)\\b"
     },
     {
       "name": "string.quoted.double.weblang",
@@ -27,6 +27,11 @@
       "name": "comment.block",
       "begin":"\\/\\*",
       "end": "\\*+\\/"
+    },
+    {
+      "name":"variable.parameter",
+      "begin":"@\\w+",
+      "end":")"
     }
   ]
 }
