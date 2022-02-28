@@ -5,12 +5,14 @@
   "foldingStopMarker": "^\\s*\\}",
   "patterns": [
     {
-      "name": "support.class.weblang",
-      "match": "\\b(server|controller|object|model|view|service|firewall|repository|router|cms)\\b"
-    },
-    {
-      "name": "support.function",
-      "match": "\\b(func)\\b"
+      "name": "meta.class.weblang",
+      "match": "(server|controller|object|model|view|service|firewall|repository|router|cms)",
+      "patterns" : [
+        {
+          "name" : "storage.type",
+          "match": "(server|controller|object|model|view|service|firewall|repository|router|cms)"
+        }
+      ]
     },
     {
       "name": "string.quoted.double.weblang",
@@ -28,21 +30,21 @@
       "match":"\\/\\/.*"
     },
     {
-      "name": "comment.block",
+      "name": "comment.block.weblang",
       "begin":"\\/\\*",
       "end": "\\*+\\/"
     },
     {
-      "name":"variable.parameter",
+      "name":"variable.parameter.weblang",
       "begin":"@\\w+",
       "end":")"
     },
     {
-      "name":"constant.numeric",
+      "name":"constant.numeric.weblang",
       "match":"[0-9]+"
     },
     {
-      "name": "variable.other",
+      "name": "variable.other.weblang",
       "match": "[$]\\w+"
     }
   ]
