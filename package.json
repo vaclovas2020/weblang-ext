@@ -6,6 +6,7 @@
     },
     "publisher": "vaclovas2020",
     "icon": "./icons/weblang_128.png",
+    "repository": "https://github.com/vaclovas2020/weblang-ext",
     "contributes": {
         "languages": [{
             "id": "weblang",
