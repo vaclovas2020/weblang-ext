@@ -7,6 +7,7 @@
     "publisher": "vaclovas2020",
     "keywords": ["weblang"],
     "categories": ["Programming Languages"],
+    "description": "Weblang language support fow Visual Studio Code",
     "icon": "icons/weblang_128.png",
     "repository": "https://github.com/vaclovas2020/weblang-ext",
     "contributes": {
