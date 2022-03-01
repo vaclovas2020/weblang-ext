@@ -1,13 +1,13 @@
 {
     "name": "weblang",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": ">=0.9.0-pre.1"
     },
     "publisher": "vaclovas2020",
     "keywords": ["weblang"],
     "categories": ["Programming Languages"],
-    "description": "Weblang language support fow Visual Studio Code",
+    "description": "Weblang language support for Visual Studio Code",
     "icon": "icons/weblang_128.png",
     "repository": "https://github.com/vaclovas2020/weblang-ext",
     "contributes": {
