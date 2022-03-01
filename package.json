@@ -5,7 +5,7 @@
         "vscode": ">=0.9.0-pre.1"
     },
     "publisher": "vaclovas2020",
-    "icon": "https://weblang.dev/apple-touch-icon.png",
+    "icon": "https://weblang.dev/weblang_128.png",
     "contributes": {
         "languages": [{
             "id": "weblang",
