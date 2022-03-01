@@ -5,14 +5,12 @@
   "foldingStopMarker": "^\\s*\\}",
   "patterns": [
     {
-      "name": "meta.class.weblang",
-      "match": "(server|controller|object|model|view|service|firewall|repository|router|cms)",
-      "patterns" : [
-        {
-          "name" : "storage.type",
-          "match": "(server|controller|object|model|view|service|firewall|repository|router|cms)"
-        }
-      ]
+      "name": "storage.type.weblang",
+      "match": "\\b(server|controller|object|model|view|service|firewall|repository|router|cms|func)\\b"
+    },
+    {
+      "name": "storage.modifier.weblang",
+      "match": "\\b(external)\\b"
     },
     {
       "name": "string.quoted.double.weblang",
