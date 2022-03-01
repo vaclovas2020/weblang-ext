@@ -2,4 +2,4 @@
 
 This extension add Weblang language support (.web) to Visual Studio Code
 
-- Added language syntax highlights support
+- Added language syntax highlighting support
