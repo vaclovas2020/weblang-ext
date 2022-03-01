@@ -1,10 +1,12 @@
 {
     "name": "weblang",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": ">=0.9.0-pre.1"
     },
     "publisher": "vaclovas2020",
+    "keywords": ["weblang"],
+    "categories": ["Programming Languages"],
     "icon": "icons/weblang_128.png",
     "repository": "https://github.com/vaclovas2020/weblang-ext",
     "contributes": {
