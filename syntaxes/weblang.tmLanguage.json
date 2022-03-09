@@ -13,6 +13,10 @@
       "match": "\\b(external)\\b"
     },
     {
+      "name": "keyword.other.weblang",
+      "match": "\\b(namespace)\\b"
+    },
+    {
       "name": "string.quoted.double.weblang",
       "begin": "\"",
       "end": "\"",
